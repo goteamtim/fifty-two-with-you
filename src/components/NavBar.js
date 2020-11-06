@@ -6,7 +6,7 @@ export default function NavBar() {
 
   return (
     <div style={{position:'fixed', height: 20 + 'px', width: '100%', background: 'red'}}>
-      {{value}}
+      {value}
     </div>
     //This needs to be a bar thats stuck to the top of the screen. Its
   );

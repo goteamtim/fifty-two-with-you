@@ -18,7 +18,9 @@ export default function Main(){
             suit = suits[i];
             for (let k = 0; k < values.length; k++) {
                 value = values[k];
-                deck.push({suit: value });
+                var card = new Object();
+                card[ suit ] = value;
+                deck.push( card );
             }
         }
         
@@ -40,10 +42,9 @@ export default function Main(){
 
         setDeck( temp_deck );
     }
-    
 
     return(
-        <div style={{display: "flex"}}>
+        <div style={{display: "flex", position: "absolute", 'padding-top': 19 + "px"}}>
             <div onClick={() => _onDeckClick()} >Deck</div>
             <div >{Object.keys(currentCard)[0]}</div>
             
