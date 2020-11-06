@@ -1,7 +1,7 @@
 import React, {  useState } from 'react';
 
 export default function NavBar() {
-    const [value] = useState('Useless Placeholder');
+    const [value] = useState('Fifty-Two With You');
     // value is the variable you can use and onChangeText() can be used to update that variable.
 
   return (
