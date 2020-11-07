@@ -65,15 +65,18 @@ export default function Main() {
         setDeck( deck );
     }
 
-    function _updateStats( currentCard )
+    function _updateStats()
     {
         var suit;
-        debugger;
+
         suit = Object.keys( currentCard )[ 0 ];
 
-        try {
-            stats[ suit ] += Number( currentCard[ suit ] );
-        } catch (error) {
+        if ( !isNaN( parseInt( currentCard[ suit ] ) ) )
+        {    
+            stats[ suit ] += parseInt( currentCard[ suit ] );
+        }
+        else
+        {
             var card;
 
             card = currentCard[ suit ]
