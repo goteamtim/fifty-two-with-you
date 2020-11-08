@@ -10,12 +10,17 @@
     order: 1;
     flex-grow: 1;
     text-align: center;
+
 }
 
 #current-card-container {
     order: 2;
     flex-grow: 1;
     text-align: center;
+}
+
+#current-card{
+    max-width: 150px;
 }
 
 #stats-container{
@@ -30,6 +35,7 @@
 .card-deck{
     border: 1px solid black;
     border-radius: 3px;
-    max-width: 300px;
-    height: 400px;
+    height: 200px;
+    margin: 10px;
+    max-width: 150px;
 }

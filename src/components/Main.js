@@ -98,6 +98,7 @@ export default function Main() {
 
     function _resetGame(){
         setStats({ 'spades': 0, 'diamonds': 0, 'hearts': 0, 'clubs': 0 })
+        setCurrentCard({ 'Jack': '0' })
         setDeck([])
         setDeck(_buildDeck());
     }
