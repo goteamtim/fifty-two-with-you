@@ -38,12 +38,14 @@ export default function Main() {
 
         if (deck.length === 0) {
             // Stop the timer
+            _updateStats()
             return;
         } else if (deck.length === 1) {
             setCurrentCard(deck[0]);
+            _updateStats()
             setDeck([])
             return;
-        } else if (deck.length != 52) {
+        } else if (deck.length !== 52) {
             _updateStats()
         }
         // Probably a better way to shuffle or in addition to this.
@@ -95,7 +97,9 @@ export default function Main() {
     }
 
     function _resetGame(){
-
+        setStats({ 'spades': 0, 'diamonds': 0, 'hearts': 0, 'clubs': 0 })
+        setDeck([])
+        setDeck(_buildDeck());
     }
 
     return (
@@ -135,6 +139,7 @@ export default function Main() {
                     </tr>
                 </table>
                 <div>Remaining cards {deck.length}</div>
+                <button onClick={()=>{_resetGame()}}>Reset</button>
             </div>
         </div>
     )
