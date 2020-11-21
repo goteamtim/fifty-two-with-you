@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/goteamtim/fifty-two-with-you/static/css/main.1f4ea606.chunk.css",
-    "main.js": "/goteamtim/fifty-two-with-you/static/js/main.a431170b.chunk.js",
-    "main.js.map": "/goteamtim/fifty-two-with-you/static/js/main.a431170b.chunk.js.map",
-    "runtime-main.js": "/goteamtim/fifty-two-with-you/static/js/runtime-main.935195b8.js",
-    "runtime-main.js.map": "/goteamtim/fifty-two-with-you/static/js/runtime-main.935195b8.js.map",
-    "static/js/2.1bad8985.chunk.js": "/goteamtim/fifty-two-with-you/static/js/2.1bad8985.chunk.js",
-    "static/js/2.1bad8985.chunk.js.map": "/goteamtim/fifty-two-with-you/static/js/2.1bad8985.chunk.js.map",
-    "static/js/3.83944f0e.chunk.js": "/goteamtim/fifty-two-with-you/static/js/3.83944f0e.chunk.js",
-    "static/js/3.83944f0e.chunk.js.map": "/goteamtim/fifty-two-with-you/static/js/3.83944f0e.chunk.js.map",
-    "index.html": "/goteamtim/fifty-two-with-you/index.html",
-    "static/css/main.1f4ea606.chunk.css.map": "/goteamtim/fifty-two-with-you/static/css/main.1f4ea606.chunk.css.map",
-    "static/js/2.1bad8985.chunk.js.LICENSE.txt": "/goteamtim/fifty-two-with-you/static/js/2.1bad8985.chunk.js.LICENSE.txt"
+    "main.css": "/fifty-two-with-you/static/css/main.1f4ea606.chunk.css",
+    "main.js": "/fifty-two-with-you/static/js/main.a431170b.chunk.js",
+    "main.js.map": "/fifty-two-with-you/static/js/main.a431170b.chunk.js.map",
+    "runtime-main.js": "/fifty-two-with-you/static/js/runtime-main.43c868d8.js",
+    "runtime-main.js.map": "/fifty-two-with-you/static/js/runtime-main.43c868d8.js.map",
+    "static/js/2.1bad8985.chunk.js": "/fifty-two-with-you/static/js/2.1bad8985.chunk.js",
+    "static/js/2.1bad8985.chunk.js.map": "/fifty-two-with-you/static/js/2.1bad8985.chunk.js.map",
+    "static/js/3.83944f0e.chunk.js": "/fifty-two-with-you/static/js/3.83944f0e.chunk.js",
+    "static/js/3.83944f0e.chunk.js.map": "/fifty-two-with-you/static/js/3.83944f0e.chunk.js.map",
+    "index.html": "/fifty-two-with-you/index.html",
+    "static/css/main.1f4ea606.chunk.css.map": "/fifty-two-with-you/static/css/main.1f4ea606.chunk.css.map",
+    "static/js/2.1bad8985.chunk.js.LICENSE.txt": "/fifty-two-with-you/static/js/2.1bad8985.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.935195b8.js",
+    "static/js/runtime-main.43c868d8.js",
     "static/js/2.1bad8985.chunk.js",
     "static/css/main.1f4ea606.chunk.css",
     "static/js/main.a431170b.chunk.js"
